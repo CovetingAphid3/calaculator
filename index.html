@@ -1,54 +1,61 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculator</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+   <div class="container">
+    <div class="calculator">
+        <h1 class="heading">Simple Calculator</h1>
+       <form action="">
+    <div class="display">  
+        <input type="text" name="display">      
+    </div>   
+    
+    <div>
+        <input type="button" value="AC"  class="operator1" id="AC">
+        <input type="button" value="DE"  class="operator1" id="DE">
+        <input type="button" value="."  class="operator1" id=".">
+        <input type="button" value="/"  class="operator1"  id="/">
 
-    <header><h1>Calculator</h1></header>
+    </div>
+    <div>
+        <input type="button" value="7"  class="operator numbers" id="7">
+        <input type="button" value="8" class="operator numbers" id="8">
+        <input type="button" value="9"  class="operator numbers" id>
+        <input type="button" value="*"  class="operator1">
 
-<div class="container">
-  <div class="calculator">
-    <form>
-      <div class="display">
-        <input type="text" name="display">
-      </div>
-      <div>
-        <input type="button" value="AC" class="operator">
-        <input type="button" value="DE"  class="operator">
-        <input type="button" value="."  class="operator">
-        <input type="button" value="/"  class="operator">
-      </div>
-      <div>
-        <input type="button" value="7" >
-        <input type="button" value="8" >
-        <input type="button" value="9" >
-        <input type="button" value="*"  class="operator">
-      </div>
-      <div>
-        <input type="button" value="4" >
-        <input type="button" value="5" >
-        <input type="button" value="6" >
-        <input type="button" value="-"  class="operator">
-      </div>
-      <div>
-        <input type="button" value="1" >
-        <input type="button" value="2" >
-        <input type="button" value="3" >
-        <input type="button" value="+"  class="operator">
-      </div>
-      <div>
-        <input type="button" value="00" >
-        <input type="button" value="0" >
-        <input type="button" value="="  class="equal operator">
-       
-      </div>
+    </div>
+    <div>
+        <input type="button" value="4"  class="operator numbers">
+        <input type="button" value="5" class="operator numbers">
+        <input type="button" value="6"  class="operator numbers">
+        <input type="button" value="-"  class="operator1">
+
+    </div>
+    <div>
+        <input type="button" value="1"  class="operator numbers">
+        <input type="button" value="2"  class="operator numbers">
+        <input type="button" value="3"  class="operator numbers">
+        <input type="button" value="+"  class="operator1">
+
+    </div>
+    <div>
+        <input type="button" value="00"  class="operator numbers">
+        <input type="button" value="0"  class="operator numbers">
+        <input type="button" value="="  class="equal operator1" >
+
+    </div> 
     </form>
-  </div>
-</div>
+    <script src="script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/11.6.0/math.js"></script>
 
+    </div>
+   </div>
+    
 
 </body>
 </html>
